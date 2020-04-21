@@ -1,6 +1,6 @@
-# Single Responsibility Principle
+## Single Responsibility Principle
 
-the main idea is that class should only be responsible for one thing
+The main idea is that class should only be responsible for one thing
 
 ```
 class News {
@@ -31,5 +31,5 @@ class NewsPrinter {
     }
 }
 
-const news = new NewsPrinter('title', 'text of article');
+const printer = new NewsPrinter(new News('title', 'text of article'));
 ```

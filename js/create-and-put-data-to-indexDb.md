@@ -1,5 +1,6 @@
 Create DB and put to this stpre data.
 
+`
 const request = indexedDB.open('db-name', 2);
 request.onupgradeneeded = () => {
     const db = request.result;
@@ -9,3 +10,4 @@ request.onupgradeneeded = () => {
         'key',
     );
 };
+`

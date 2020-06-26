@@ -13,3 +13,6 @@
             st = status
             br = branch
             hist = log --pretty=format:\"%h %ad |%s%d [%an]\" --graph --date=short
+
+### Another format to output logs 
+    git log --oneline --abbrev-commit --all --graph --decorate

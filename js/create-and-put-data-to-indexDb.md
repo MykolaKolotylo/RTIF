@@ -5,6 +5,5 @@
         const storage = db.createObjectStore('key_value_storage');
         storage.add('value','key',);
     };
-// test git
 
     
